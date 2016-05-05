@@ -9,6 +9,8 @@
 <link href="Col1.css" rel="stylesheet" type="text/css">
 <link href="Responsvie v2.css" rel="stylesheet" type="text/css">
 <link href="Responsive v3.css" rel="stylesheet" type="text/css">
+<link href="Dropdown CSS final.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="Dropdown Java Final.js"></script>
 </head>
   <body>
   
@@ -24,11 +26,16 @@
             <div class="row">
                 <section class="col col-6">
                  
-                   <ul>
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="My Work.html">My Work</a></li>
-                    <li><a href="Contact Me.html">Contact Me</a></li>
-                  </ul>
+                 <div class="dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Navigate My Page!</button>
+  				<div id="myDropdown" class="dropdown-content">
+    			<a href="index.html">Hi!</a>
+    			<a href="My Work.html">My Work</a>
+    			<a href="Contact Me.html">Contact Me</a>
+  				</div>
+			</div>
+                   
+               
                 </section>
                 <section class="col col-6">
                     <h2>Let's Get In Touch!</h2>
